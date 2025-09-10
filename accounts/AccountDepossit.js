@@ -3,7 +3,7 @@ const app= express();
 const port = 3000;
 
 app.get('/account/deposit', (req, res) => {
-  res.send('deposit money');
+  res.send('depositar dinero');
 });
 
 app.listen(port, () => {

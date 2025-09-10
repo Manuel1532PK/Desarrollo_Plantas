@@ -3,7 +3,7 @@ const app= express();
 const port = 3000;
 
 app.get('/account/withdraw', (req, res) => {
-  res.send('withdraw money');
+  res.send('Retirar dinero');
 });
 
 app.listen(port, () => {

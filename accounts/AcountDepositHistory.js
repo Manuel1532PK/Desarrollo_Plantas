@@ -3,7 +3,7 @@ const app= express();
 const port = 3000;
 
 app.get('/account/deposit/history', (req, res) => {
-  res.send('deposit history');
+  res.send('Historial de depositos');
 });
 
 app.listen(port, () => {

@@ -2,8 +2,8 @@ const express = require('express');
 const auth = express();
 const port = 3000;
 
-auth.post('/auth/register', (req, res) => {
-  res.send('Registrar usuario');
+auth.post('/auth/reset_password', (req, res) => {
+  res.send('Restablecer contraseña');
 });
 
 auth.listen(port, ()=>{
